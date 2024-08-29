@@ -4,11 +4,11 @@
 #
 #    pip-compile requirements/dev.in
 #
-black==23.3.0
+black==24.3.0
     # via -r requirements/dev.in
 build==1.0.3
     # via pip-tools
-certifi==2023.11.17
+certifi==2024.7.4
     # via requests
 cfgv==3.3.1
     # via pre-commit
@@ -34,7 +34,7 @@ flit-core==3.9.0
     # via flit
 identify==2.5.24
     # via pre-commit
-idna==3.6
+idna==3.7
     # via requests
 importlib-metadata==6.7.0
     # via
@@ -56,7 +56,7 @@ packaging==23.2
     #   pytest
 pathspec==0.11.2
     # via black
-pillow==9.5.0
+pillow==10.3.0
     # via -r requirements/dev.in
 pip-tools==6.14.0
     # via -r requirements/dev.in
@@ -76,7 +76,7 @@ pytest-cov==4.1.0
     # via -r requirements/dev.in
 pyyaml==6.0.1
     # via pre-commit
-requests==2.31.0
+requests==2.32.2
     # via flit
 toml==0.10.2
     # via pre-commit
@@ -96,7 +96,7 @@ typing-extensions==4.7.1
     #   black
     #   importlib-metadata
     #   platformdirs
-urllib3==2.0.7
+urllib3==2.2.2
     # via requests
 virtualenv==20.25.0
     # via pre-commit
@@ -104,7 +104,7 @@ wheel==0.42.0
     # via
     #   -r requirements/dev.in
     #   pip-tools
-zipp==3.15.0
+zipp==3.19.1
     # via importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:

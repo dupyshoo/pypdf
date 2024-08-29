@@ -10,7 +10,7 @@ attrs==23.1.0
     # via -r requirements/docs.in
 babel==2.14.0
     # via sphinx
-certifi==2023.11.17
+certifi==2024.7.4
     # via requests
 charset-normalizer==3.3.2
     # via requests
@@ -19,7 +19,7 @@ docutils==0.17.1
     #   myst-parser
     #   sphinx
     #   sphinx-rtd-theme
-idna==3.6
+idna==3.7
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -27,7 +27,7 @@ importlib-metadata==6.7.0
     # via
     #   attrs
     #   sphinx
-jinja2==3.1.2
+jinja2==3.1.4
     # via
     #   myst-parser
     #   sphinx
@@ -51,7 +51,7 @@ pytz==2023.3.post1
     # via babel
 pyyaml==6.0.1
     # via myst-parser
-requests==2.31.0
+requests==2.32.2
     # via sphinx
 snowballstemmer==2.2.0
     # via sphinx
@@ -81,7 +81,7 @@ typing-extensions==4.7.1
     # via
     #   importlib-metadata
     #   markdown-it-py
-urllib3==2.0.7
+urllib3==2.2.2
     # via requests
-zipp==3.15.0
+zipp==3.19.1
     # via importlib-metadata

@@ -76,7 +76,7 @@ pytest-cov==4.1.0
     # via -r requirements/dev.in
 pyyaml==6.0.1
     # via pre-commit
-requests==2.31.0
+requests==2.32.4
     # via flit
 toml==0.10.2
     # via pre-commit
